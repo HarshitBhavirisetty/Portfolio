@@ -426,7 +426,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
@@ -580,6 +580,8 @@ main {
 }
 
 .certifications-item-title { margin-bottom: 7px; }
+
+
 
 .certifications-text {
   color: var(--light-gray);
@@ -864,7 +866,7 @@ main {
 
 
 /* Apply animation to the entire data element */
-.data-animation {
+/* .data-animation {
   display: inline-block;
   opacity: 2;
   transform: translateY(10px);
@@ -874,7 +876,7 @@ main {
 .title-wrapper:hover .data-animation {
   opacity: 2;
   transform: translateY(0);
-}
+} */
 
 
 
@@ -1026,6 +1028,7 @@ main {
   font-weight: var(--fw-400);
   text-transform: capitalize;
   line-height: 1.3;
+  text-align: center;
 }
 
 .project-category {
@@ -1055,7 +1058,6 @@ main {
   width: 100%;
   height: 100%;
   border: none;
-  filter: grayscale(1) invert(1);
 }
 
 .contact-form { margin-bottom: 10px; }
@@ -1793,6 +1795,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   width: 80px;
   height: auto;
   transition: transform 1s ease;
+  border-radius: 20px;
 }
 
 .avatar-box:hover .avatar {
@@ -1863,4 +1866,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 .social-link:hover {
   transform: scale(1.2) rotate(360deg); /* Adjust the rotation angle */
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+}
+
+.image_h{
+  border-radius: 20px;
+  height:70px;
+  width: 50px;
 }
