@@ -1879,3 +1879,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-bottom:20px;
   font-size:20px;
 }
+.contact-me{
+  text-align:center;
+  font-size:30px;
+  font-style:bold;
+}
